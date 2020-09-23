@@ -51,6 +51,17 @@ navitems[2].textContent = siteContent.nav['nav-item-3'];
 navitems[3].textContent = siteContent.nav['nav-item-4'];
 navitems[4].textContent = siteContent.nav['nav-item-5'];
 navitems[5].textContent = siteContent.nav['nav-item-6'];
+const newNavItem = document.querySelector('body > div > header > nav') 
+let navItem7 = document.createElement('a');
+navItem7.textContent = "Alaa";
+newNavItem.appendChild(navItem7);
+
+const newNavItem1 = document.querySelector('body > div > header > nav') 
+let navItem8 = document.createElement('a');
+navItem8.textContent = "Hijazi";
+newNavItem1.appendChild(navItem8);
+
+
 for(let i = 0; i<navitems.length; i++){
   navitems[i].style.color = "green";
 }
